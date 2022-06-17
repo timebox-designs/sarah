@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 100vw;
+}
+
+.inverse {
+  background-color: #111111;
+}
+
+.grid {
+  padding: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.caption,
+.copy {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+
+.caption:hover * {
+  color: #ffffff;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 8fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 100vh;
+    background: url(./img/intricate-explorer.jpg);
+    background-size: cover;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--primary-bg-color-dark);
+    color: var(--primary-color-light);
+}
+
+.panel > * {
+    margin-bottom: 2rem;
+}
+
+.container h1 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.menu {
+    text-align: center;
+}
+
+.link {
+    display: block;
+    margin-bottom: .25rem;
+    transition: 0.2s;
+}
+
+.link:hover {
+    cursor: pointer;
+    transform: translateX(4px);
+    color: var(--link-color);
+}
