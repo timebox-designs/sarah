@@ -1,6 +1,6 @@
-import {Element} from "react-scroll";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuoteLeft} from "@fortawesome/free-solid-svg-icons";
+import { Element } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import styles from "./working-with-me.module.css";
 import sarah from "./img/sarah.jpg";
 

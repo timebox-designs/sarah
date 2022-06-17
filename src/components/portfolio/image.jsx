@@ -1,7 +1,7 @@
 import styles from "./portfolio.module.css";
 import React from "react";
 
-export function Image({href, src, alt}) {
+export function Image({ href, src, alt }) {
   return (
     <>
       <a href={href}>

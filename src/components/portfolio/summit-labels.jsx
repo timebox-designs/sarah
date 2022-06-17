@@ -1,4 +1,4 @@
-import {Col, Grid, Row} from "react-flexbox-grid";
+import { Col, Grid, Row } from "react-flexbox-grid";
 import styles from "./portfolio.module.css";
 
 import donate from "./img/donate.jpg";
@@ -9,14 +9,14 @@ import suckItCancer from "./img/suck-it-cancer.jpg";
 import stepByStep from "./img/step-by-step.jpg";
 import summitPlus from "./img/summit-plus.jpg";
 
-import {Image} from "./image";
+import { Image } from "./image";
 
 export function SummitLabels() {
   return (
     <>
       <section className={styles.container}>
         <Grid className={styles.grid} fluid>
-          <Row style={{marginBottom: "2rem"}}>
+          <Row style={{ marginBottom: "2rem" }}>
             <Col sm={4}>
               <Image
                 href="https://www.youtube.com/watch?v=OVpbQKCvwbQ"
@@ -39,12 +39,12 @@ export function SummitLabels() {
               />
             </Col>
           </Row>
-          <Row style={{marginTop: "4rem", marginBottom: ".5em"}}>
+          <Row style={{ marginTop: "4rem", marginBottom: ".5em" }}>
             <Col sm={12}>
               <h5>SUMMIT LABELS</h5>
             </Col>
           </Row>
-          <Row style={{marginBottom: "4rem"}}>
+          <Row style={{ marginBottom: "4rem" }}>
             <Col sm={8}>
               <div className={styles.copy}>
                 <p>
@@ -57,7 +57,7 @@ export function SummitLabels() {
               </div>
             </Col>
           </Row>
-          <Row style={{marginBottom: "8rem"}}>
+          <Row style={{ marginBottom: "8rem" }}>
             <Col sm={3}>
               <Image
                 href="https://blog.summitlabels.ca/suck-it-cancer"

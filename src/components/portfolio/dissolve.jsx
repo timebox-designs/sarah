@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import {Col, Grid, Row} from "react-flexbox-grid";
+import { Col, Grid, Row } from "react-flexbox-grid";
 import styles from "./portfolio.module.css";
 
 import getVerticalReady from "./img/get-vertical-ready.jpg";
@@ -8,7 +8,7 @@ import grammableBistro from "./img/grammable_bistro.jpg";
 import mmuuullttiipplly from "./img/mmuuullttiipplly.jpg";
 import surprised from "./img/surprised.jpg";
 
-import {Image} from "./image";
+import { Image } from "./image";
 
 const GRAMMABLE_BISTRO = "https://dissolve.com/showreels/grammable";
 
@@ -17,7 +17,7 @@ export function Dissolve() {
     <>
       <section className={clsx(styles.container, styles.inverse)}>
         <Grid className={styles.grid} fluid>
-          <Row style={{marginTop: "4rem", marginBottom: "4rem"}}>
+          <Row style={{ marginTop: "4rem", marginBottom: "4rem" }}>
             <Col sm={8}>
               <Image
                 href={GRAMMABLE_BISTRO}
@@ -27,7 +27,7 @@ export function Dissolve() {
             </Col>
             <Col sm={3}>
               <a className={styles.caption} href={GRAMMABLE_BISTRO}>
-                <p style={{paddingLeft: "2rem"}}>
+                <p style={{ paddingLeft: "2rem" }}>
                   Introducing North America's first authentic, handcrafted,
                   gastro-photogenical experience.
                 </p>
@@ -39,12 +39,12 @@ export function Dissolve() {
 
       <section>
         <Grid className={styles.grid} fluid>
-          <Row style={{marginTop: "4rem", marginBottom: "1rem"}}>
+          <Row style={{ marginTop: "4rem", marginBottom: "1rem" }}>
             <Col sm={12}>
               <h5>DISSOLVE</h5>
             </Col>
           </Row>
-          <Row style={{marginBottom: "4rem"}}>
+          <Row style={{ marginBottom: "4rem" }}>
             <Col sm={6}>
               <div className={styles.copy}>
                 <p>
@@ -55,7 +55,7 @@ export function Dissolve() {
               </div>
             </Col>
           </Row>
-          <Row style={{marginBottom: "8rem"}}>
+          <Row style={{ marginBottom: "8rem" }}>
             <Col sm={4}>
               <Image
                 href={GRAMMABLE_BISTRO}

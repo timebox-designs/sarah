@@ -1,6 +1,6 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuoteLeft} from "@fortawesome/free-solid-svg-icons";
-import {Element} from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
+import { Element } from "react-scroll";
 
 import styles from "./introduction.module.css";
 

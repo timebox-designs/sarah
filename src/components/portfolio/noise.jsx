@@ -1,4 +1,4 @@
-import {Col, Grid, Row} from "react-flexbox-grid";
+import { Col, Grid, Row } from "react-flexbox-grid";
 import styles from "./portfolio.module.css";
 
 import k from "./img/k.png";
@@ -9,10 +9,10 @@ export function Noise() {
   return (
     <section>
       <Grid className={styles.grid} fluid>
-        <Row style={{marginTop: "4rem", marginBottom: "4rem"}}>
+        <Row style={{ marginTop: "4rem", marginBottom: "4rem" }}>
           <Col sm={3}>
             <img
-              style={{height: "500px"}}
+              style={{ height: "500px" }}
               className={styles.img}
               src={k}
               alt="Kinder Surprise"
@@ -21,7 +21,7 @@ export function Noise() {
           </Col>
           <Col sm={3}>
             <img
-              style={{height: "500px"}}
+              style={{ height: "500px" }}
               className={styles.img}
               src={f}
               alt="Ferrero Rocher"
@@ -30,7 +30,7 @@ export function Noise() {
           </Col>
           <Col sm={3}>
             <img
-              style={{height: "500px"}}
+              style={{ height: "500px" }}
               className={styles.img}
               src={n}
               alt="Nutella"
@@ -38,12 +38,12 @@ export function Noise() {
             <h6>Nutella</h6>
           </Col>
         </Row>
-        <Row style={{marginTop: "4rem", marginBottom: "1rem"}}>
+        <Row style={{ marginTop: "4rem", marginBottom: "1rem" }}>
           <Col sm={12}>
             <h5>NOISE DIGITAL</h5>
           </Col>
         </Row>
-        <Row style={{marginBottom: "8rem"}}>
+        <Row style={{ marginBottom: "8rem" }}>
           <Col sm={6}>
             <div className={styles.copy}>
               <p>

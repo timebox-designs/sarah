@@ -1,5 +1,5 @@
-import {Element} from "react-scroll";
-import {Col, Grid, Row} from "react-flexbox-grid";
+import { Element } from "react-scroll";
+import { Col, Grid, Row } from "react-flexbox-grid";
 import styles from "./fresh-ideas.module.css";
 
 import kindle from "./img/kindle.jpg";
@@ -7,7 +7,7 @@ import kotex from "./img/kotex.jpg";
 import mec from "./img/mec.jpg";
 import ticTacs from "./img/tic-tacs.jpg";
 
-function Idea({children, src, title}) {
+function Idea({ children, src, title }) {
   return (
     <>
       <img className={styles.img} src={src} alt={title} />
@@ -23,7 +23,7 @@ export function FreshIdeas() {
       <Element name="fresh-ideas" />
       <section className={styles.inverse}>
         <Grid className={styles.grid} fluid>
-          <Row style={{marginTop: "4rem"}}>
+          <Row style={{ marginTop: "4rem" }}>
             <Col sm={3}>
               <Idea title="Kindle" src={kindle}>
                 A friendly, bookish brand sparking passion and accessibility
@@ -48,12 +48,12 @@ export function FreshIdeas() {
               </Idea>
             </Col>
           </Row>
-          <Row style={{marginTop: "4rem", marginBottom: "1rem"}}>
+          <Row style={{ marginTop: "4rem", marginBottom: "1rem" }}>
             <Col sm={12}>
               <h5>FRESH IDEAS</h5>
             </Col>
           </Row>
-          <Row style={{marginBottom: "4rem"}}>
+          <Row style={{ marginBottom: "4rem" }}>
             <Col sm={4}>
               <div className={styles.copy}>
                 <p>

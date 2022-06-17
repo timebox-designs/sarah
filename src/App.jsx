@@ -1,15 +1,21 @@
-import {Splash, Introduction, Portfolio, FreshIdeas, WorkingWithMe} from "./components";
+import {
+  Splash,
+  Introduction,
+  Portfolio,
+  FreshIdeas,
+  WorkingWithMe,
+} from "./components";
 
 function App() {
-    return (
-        <>
-            <Splash/>
-            <Introduction/>
-            <Portfolio/>
-            <FreshIdeas/>
-            <WorkingWithMe/>
-        </>
-    )
+  return (
+    <>
+      <Splash />
+      <Introduction />
+      <Portfolio />
+      <FreshIdeas />
+      <WorkingWithMe />
+    </>
+  );
 }
 
-export default App
+export default App;

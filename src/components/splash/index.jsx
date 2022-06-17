@@ -1,9 +1,9 @@
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 import styles from "./splash.module.css";
 
 const DURATION = 500;
 
-function MenuItem({children, to}) {
+function MenuItem({ children, to }) {
   return (
     <Link className={styles.link} to={to} smooth duration={DURATION}>
       <h3>{children}</h3>
